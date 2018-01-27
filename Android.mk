@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),metal)
+ifeq ($(TARGET_DEVICE),fever)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

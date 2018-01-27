@@ -1,3 +1,3 @@
-add_lunch_combo full_metal-user
-add_lunch_combo full_metal-userdebug
-add_lunch_combo full_metal-eng
+add_lunch_combo full_fever-user
+add_lunch_combo full_fever-userdebug
+add_lunch_combo full_fever-eng

@@ -1,6 +1,6 @@
 #
 #
-# system.prop for Ulefone Metal
+# system.prop for Wiko Fever
 #
 
 # RIL
@@ -24,14 +24,14 @@ ro.camera.sound.forced=0
 ro.audio.silent=0
 persist.af.audio_patch_fm=1
 
-# disable soft keys
-qemu.hw.mainkeys=1
+# enable soft keys
+qemu.hw.mainkeys=0
 
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
 
 # lcd density
-ro.sf.lcd_density=320
+ro.sf.lcd_density=480
 
 # RIL
 ro.telephony.sim.count=2
@@ -70,5 +70,5 @@ keyguard.no_require_sim=true
 camera.disable_zsl_mode=1
 persist.debug.wfd.enable=1
 # reverse HALL cover
-ro.reversed.hall=1
+#ro.reversed.hall=1
 media.settings.xml=/vendor/etc/media_profiles.xml
