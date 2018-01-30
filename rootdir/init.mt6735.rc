@@ -347,10 +347,6 @@ on post-fs-data
     chmod 0660 /dev/ttyC2
     chown system gps /dev/ttyC2
 
-	# Fingerprint
-	chmod 0666 /dev/esfp0
-    chown system system /dev/esfp0
-
     # IO Scheduler
     chown system system /sys/block/mmcblk0/queue/scheduler
     chmod 0660 /sys/block/mmcblk0/queue/scheduler
@@ -365,7 +361,7 @@ on post-fs-data
     chown system system /sys/bus/platform/drivers/gyroscope/gyro_orientation
 
     # Smartwake
-    chown system system /sys/tpd_gesture/tpd_gesture_enable
+    chown system system /sys/bus/platform/drivers/tgeseture/tgesture_enable
 
 on boot
     write /proc/sys/vm/dirty_writeback_centisecs 300
