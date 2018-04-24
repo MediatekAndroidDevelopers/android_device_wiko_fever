@@ -7,6 +7,9 @@
 rild.libpath=mtk-ril.so
 rild.libargs=-d /dev/ttyC0
 
+# Camera ( HAL3 )
+persist.camera.HAL3.enabled=1
+
 # Wifi
 wifi.interface=wlan0
 wifi.direct.interface=p2p0
